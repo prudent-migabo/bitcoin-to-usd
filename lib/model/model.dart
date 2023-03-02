@@ -1,5 +1,5 @@
 class Model {
-  int desiredUsdValue;
+  final desiredUsdValue;
 
 //<editor-fold desc="Data Methods">
   Model({

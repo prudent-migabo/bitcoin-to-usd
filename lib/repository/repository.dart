@@ -13,8 +13,7 @@ class Repository {
       return model.desiredUsdValue;
 
     } catch(e){
-      print('qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq ${e.toString()}');
-     //  throw Fluttertoast.showToast(msg: e.toString());
+      print(e.toString());
     }
   }
 
